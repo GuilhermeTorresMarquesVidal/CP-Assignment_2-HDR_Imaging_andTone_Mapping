@@ -18,7 +18,7 @@ def curve_calibration_to_narray(text):
     G = []
     B = []
 
-    for line in lines[1:-2]:
+    for line in lines[1:-1]:
         channels = line.split()
         R.append(float(channels[0]))
         G.append(float(channels[1]))

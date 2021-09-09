@@ -1,9 +1,9 @@
 import numpy as np
 
-# limits sup and inf
+# limits for gray scale
 
-limit_inf = 0
-limit_sup = 255
+limit_up = 255
+limit_down = 0
 
 # list of images filepath
 
@@ -19,3 +19,6 @@ exposures = np.array([1./30., 1./10., 1./3., .625, 1.3, 4])
 
 filepath_curve_calibration = "curve.m"
 
+# Values for gamma correction
+
+gamma = 1./2.2
